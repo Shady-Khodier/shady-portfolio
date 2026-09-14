@@ -914,3 +914,16 @@ footer {
     display: block;
    transform: scale(1.25) translateY(25px);
 }
+@media (max-width: 768px) {
+  .hero, .home {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-img, .home-img, img {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+}
