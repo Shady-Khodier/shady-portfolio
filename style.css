@@ -927,3 +927,26 @@ footer {
     margin-bottom: 20px;
   }
 }
+/* Responsive adjustment for Mobile screens */
+@media (max-width: 768px) {
+  section, .hero, .home, main {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    text-align: center !important;
+    align-items: center !important;
+  }
+
+  .home-content, .hero-content, div:has(h1) {
+    order: 2 !important;
+  }
+  
+  .home-img, .hero-img, div:has(img) {
+    order: 1 !important;
+    margin-bottom: 25px !important;
+  }
+
+  img {
+    max-width: 250px !important;
+    height: auto !important;
+  }
+}
