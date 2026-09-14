@@ -740,8 +740,13 @@ footer {
     }
 
     .hero-image {
-        width: 230px;
-        height: 230px;
+        width: 260px;
+        height: 260px;
+    }
+
+    .hero-image img {
+        transform: none !important;
+        object-fit: cover !important;
     }
 
     .hero-buttons {
